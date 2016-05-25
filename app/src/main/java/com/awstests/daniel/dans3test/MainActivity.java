@@ -129,8 +129,8 @@ public class MainActivity extends Activity{
                             e.printStackTrace();
                         }
                         TransferObserver observer = transferUtility.upload(
-                                "hhproperties",           // The S3 bucket to upload to
-                                "abc",          // The key for the uploaded object
+                                "hhproperties/prop1",           // The S3 bucket to upload to
+                                "hij",          // The key for the uploaded object
                                 f// The location of the file to be uploaded
                         );
                         observer.refresh();
